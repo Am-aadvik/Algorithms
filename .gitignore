@@ -5,4 +5,9 @@
 *.pdb
 *.log
 *.tlog
-Algorithm\Debug\*
+Algorithm/Debug/
+.vscode
+.vscode/
+Debug/
+*.suo
+*.opensdf
