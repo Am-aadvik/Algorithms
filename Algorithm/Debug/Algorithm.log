@@ -1,6 +1,7 @@
 ﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
   CC_NTRIPLETS_01.cpp
+  CC_ZCO14001_VideoGame_01.cpp
+  CC_ZCO14003_SmartPhone_01.cpp
   CC_ZCO22002_Messages_01.cpp
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_ZCO22002_Messages_01.cpp(63,35): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe

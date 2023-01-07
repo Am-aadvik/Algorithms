@@ -92,5 +92,11 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22002_Messages_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14003_SmartPhone_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14001_VideoGame_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

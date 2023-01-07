@@ -77,8 +77,8 @@ namespace StartUp
             if (textBox1.Text.Length <= 0)
                 return;
 
-            string path = @"E:\Test_Preparation\Saurabh_Master\Algorithms\src\uva\";
-            string path1 = @"E:\Test_Preparation\Saurabh_Master\Algorithms\input\";
+            string path = @"C:\repos\Algorithms\Algorithms\src\";
+            string path1 = @"C:\repos\Algorithms\Algorithms\input\";
             path += textBox1.Text;
             path1 += textBox1.Text;
 

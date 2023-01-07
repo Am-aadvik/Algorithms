@@ -1,22 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm", "Algorithm\Algorithm.vcxproj", "{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUp", "StartUp\StartUp.csproj", "{712A2DB0-4B54-4099-AF23-9A552BA8FF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Debug|Any CPU.Build.0 = Debug|Win32
 		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Debug|Win32.Build.0 = Debug|Win32
+		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Release|Any CPU.Build.0 = Release|Win32
 		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Release|Win32.ActiveCfg = Release|Win32
 		{0A5CA708-2EBA-4558-ABAC-29E5032CBB8C}.Release|Win32.Build.0 = Release|Win32
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Debug|Win32.Build.0 = Debug|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Release|Win32.ActiveCfg = Release|Any CPU
+		{712A2DB0-4B54-4099-AF23-9A552BA8FF51}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F77E3BA3-8875-4581-B5D1-8A8B92B6D7C4}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,8 @@
+*.vs
+*.exe
+*.ipch
+*.cache
+*.pdb
+*.log
+*.tlog
+Algorithm\Debug\*

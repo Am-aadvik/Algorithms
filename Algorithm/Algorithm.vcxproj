@@ -82,6 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\CodeChef\Contest\CC_NTRIPLETS_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14001_VideoGame_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14003_SmartPhone_01.cpp" />
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22002_Messages_01.cpp" />
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
