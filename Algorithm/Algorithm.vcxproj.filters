@@ -46,6 +46,33 @@
     <Filter Include="input\Misc">
       <UniqueIdentifier>{c617312a-5a58-4fd8-bf0f-723600f608ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodeChef">
+      <UniqueIdentifier>{e5dee06a-e546-4945-8c71-0af4b62208bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeForces">
+      <UniqueIdentifier>{9335ce3e-b5f2-48cb-9b98-337063ba9a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USACO">
+      <UniqueIdentifier>{650a81f3-eda5-4593-93c8-cc972f639bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeChef\Contest">
+      <UniqueIdentifier>{9bc0c3b9-4bf0-494a-b0c2-3eea83378b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeChef\Practice">
+      <UniqueIdentifier>{0958dd5f-f821-463d-962e-5c65e79a31cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeForces\Contest">
+      <UniqueIdentifier>{f196a15d-27e1-4d30-9393-f036b4f0526c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeForces\Practice">
+      <UniqueIdentifier>{53064f73-2337-4b88-aaf0-2329b35cf7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USACO\Contest">
+      <UniqueIdentifier>{315752e5-a08f-4fe9-8603-022f31635172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USACO\Practice">
+      <UniqueIdentifier>{a50b4575-b666-42d0-ae88-e78193eae18f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
