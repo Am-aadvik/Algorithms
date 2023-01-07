@@ -86,5 +86,8 @@
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <Filter>SPOJ</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Contest\CC_NTRIPLETS_01.cpp">
+      <Filter>CodeChef\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

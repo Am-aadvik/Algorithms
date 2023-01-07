@@ -7,7 +7,8 @@
 
 /**************************************ad-hoc Algorithm*************************************************/
 
-#define SPOJ_FISHMONGER
+//#define SPOJ_FISHMONGER
+#define CC_NTRIPLETS_01
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
