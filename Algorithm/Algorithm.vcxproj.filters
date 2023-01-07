@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UVA">
+      <UniqueIdentifier>{ababf6cb-7349-42aa-96e6-cbaf90f34381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{57918804-7817-43e6-80d4-2909af853fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPOJ">
+      <UniqueIdentifier>{e409dcc5-e4d1-40d8-a51c-23512f3a8711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\Graphs">
+      <UniqueIdentifier>{83c0de24-1d07-44f6-8765-8814dc2c325a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\DP">
+      <UniqueIdentifier>{7929d6be-143c-4fd7-9005-556448203edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\Strings">
+      <UniqueIdentifier>{b33c527e-c12d-411c-a451-348a26c57f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\Adhoc">
+      <UniqueIdentifier>{7da96952-2b90-456c-9868-6c40eb87b622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\D&amp;C_Exhaustive">
+      <UniqueIdentifier>{f1ce417e-104c-474f-bddc-13ebdc0d5a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\DP\10">
+      <UniqueIdentifier>{d43361ef-be2c-4b55-a7c0-8f50bd2ed3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\DP\11">
+      <UniqueIdentifier>{46f7c6c7-298d-4c74-b733-77e0f431d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVA\DP\Others">
+      <UniqueIdentifier>{d350d534-d655-40f3-9ca0-2549554e03e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\10">
+      <UniqueIdentifier>{fb6f3085-097e-4e34-b6d5-8a5ac0cfa6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\11">
+      <UniqueIdentifier>{20580d96-ab97-4d81-b260-16305b90cf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\12">
+      <UniqueIdentifier>{525757ba-c715-47d4-ae89-dc166627d96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\Misc">
+      <UniqueIdentifier>{c617312a-5a58-4fd8-bf0f-723600f608ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommonHeader.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\ConsoleColor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Algorithm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
+      <Filter>SPOJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

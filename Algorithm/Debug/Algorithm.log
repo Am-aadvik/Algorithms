@@ -1,0 +1,4 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  SPOJ_Fishmonger.cpp
+C:\repos\Algorithms-master\Algorithms\src\spoj\SPOJ_Fishmonger.cpp(88,6): warning C4189: 'T': local variable is initialized but not referenced
+  Algorithm.vcxproj -> C:\repos\Algorithms-master\Algorithms\Debug\Algorithm.exe
