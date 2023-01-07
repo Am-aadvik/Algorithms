@@ -89,5 +89,8 @@
     <ClCompile Include="..\src\CodeChef\Contest\CC_NTRIPLETS_01.cpp">
       <Filter>CodeChef\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22002_Messages_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

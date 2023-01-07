@@ -8,7 +8,8 @@
 /**************************************ad-hoc Algorithm*************************************************/
 
 //#define SPOJ_FISHMONGER
-#define CC_NTRIPLETS_01
+//#define CC_NTRIPLETS_01
+#define CC_ZCO22002_MESSAGES_01
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
