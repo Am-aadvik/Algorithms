@@ -2,6 +2,7 @@
 
 #ifdef CC_ZCO14001_VIDEOGAME_01
 READ_INPUT(CC_ZCO14001_VIDEOGAME_01)
+
 #include <iostream>
 using namespace std;
 

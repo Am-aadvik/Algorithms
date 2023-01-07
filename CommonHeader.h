@@ -11,7 +11,9 @@
 //#define CC_NTRIPLETS_01
 //#define CC_ZCO22002_MESSAGES_01
 //#define CC_ZCO14003_SMARTPHONE_01
-#define CC_ZCO14001_VIDEOGAME_01
+#define CC_ZCO12001_MATCHBRACKETS_01
+//#define CC_ZCO14001_VIDEOGAME_01
+
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
@@ -53,7 +55,9 @@ public:
 	std::string path_dir = _getcwd(NULL, 0);							\
 	std::string st = FILE_NAME1(#A, ".txt");							\
 	std::string input_file = path_dir + "\\..\\input\\" + st;			\
+	std::string output_file = path_dir + "\\..\\output\\" + st;			\
 	freopen(input_file.c_str(), "r", stdin);							\
+	freopen(output_file.c_str(), "w", stdout);							\
 	return 0;															\
 }																		\
 	int nn = before_main1();											\

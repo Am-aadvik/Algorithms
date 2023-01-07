@@ -1,1 +1,10 @@
-﻿
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  CC_NTRIPLETS_01.cpp
+  CC_ZCO12001_MatchBrackets_01.cpp
+  CC_ZCO13001_Tournament_01.cpp
+  CC_ZCO14001_VideoGame_01.cpp
+  CC_ZCO14003_SmartPhone_01.cpp
+  CC_ZCO15002_Variation_01.cpp
+  CC_ZCO22002_Messages_01.cpp
+  Generating Code...
+  Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe

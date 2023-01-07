@@ -1,0 +1,2 @@
+2 4 6 9
+All TCs took 0.0877168 seconds
