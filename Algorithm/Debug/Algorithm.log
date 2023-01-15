@@ -1,10 +1,4 @@
 ﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
-  CC_NTRIPLETS_01.cpp
-  CC_ZCO12001_MatchBrackets_01.cpp
-  CC_ZCO13001_Tournament_01.cpp
-  CC_ZCO14001_VideoGame_01.cpp
-  CC_ZCO14003_SmartPhone_01.cpp
-  CC_ZCO15002_Variation_01.cpp
-  CC_ZCO22002_Messages_01.cpp
-  Generating Code...
+  CC_FARFROMO_Far from origin_01.cpp
+C:\repos\Algorithms\Algorithms\Algorithm\CC_FARFROMO_Far from origin_01.cpp(31,11): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe

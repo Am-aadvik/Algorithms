@@ -107,5 +107,14 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12001_MatchBrackets_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14002_SUPW_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="CC_ZCO23001_Parchment_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="CC_FARFROMO_Far from origin_01.cpp">
+      <Filter>CodeChef\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
