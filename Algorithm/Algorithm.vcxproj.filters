@@ -110,10 +110,19 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14002_SUPW_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="CC_ZCO23001_Parchment_01.cpp">
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO23001_Parchment_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="CC_FARFROMO_Far from origin_01.cpp">
+    <ClCompile Include="..\src\CodeChef\Contest\CC_FARFROMO_Far from origin_01.cpp">
+      <Filter>CodeChef\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Contest\CC_ARRHALVES_ArrayHalves_01.cpp">
+      <Filter>CodeChef\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Contest\CC_MINMAXARR_Minimize_the_Maximum_01.cpp">
+      <Filter>CodeChef\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp">
       <Filter>CodeChef\Contest</Filter>
     </ClCompile>
   </ItemGroup>

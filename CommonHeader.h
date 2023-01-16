@@ -14,8 +14,12 @@
 //#define CC_ZCO12001_MATCHBRACKETS_01
 //#define CC_ZCO14002_SUPW_01
 //#define CC_ZCO14001_VIDEOGAME_01
-#define CC_ZCO23001_PARCHMENT_01
+//#define CC_ZCO23001_PARCHMENT_01
 //#define CC_FARFOR_FARFROMORIGIN_01
+//#define CC_ARRHALVES_ARRAYHALVES_01
+//#define CC_MINMAXARR_MINIMIZE_THE_MAXIMUM_01
+//#define CC_ZCO23001_PARCHMENT_01
+#define CC_SYMARRSWAP_SYMMETRIC_SWAPS_01
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
