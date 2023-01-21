@@ -1,0 +1,17 @@
+4 5
+1 2 10
+1 3 24
+2 3 2
+2 4 15
+3 4 7
+
+
+Good Morning Ma'am   
+
+I am extremely happy to share the good news with you. Aadvik Jain (5B) has cleared the 
+ZCO (Zonal Conuting Olympiad) 2023 -  Prelim exam for INOI - Indian National Olympiad in Informatics organized annually by IARCS. The goal of the competition is to identify school students with outstanding skills in algorithms and computer programming.
+
+He will be participating in INOI 2023 on 5 Feb.
+
+https://www.iarcs.org.in/inoi/2023/zco2023/results_zco2023.php
+

@@ -93,7 +93,16 @@
     <ClCompile Include="..\src\CodeChef\Contest\CC_NTRIPLETS_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1201_Triathlon_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1302_Sequence_Land_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1402_Free_ticket_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12001_MatchBrackets_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -121,6 +130,9 @@
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

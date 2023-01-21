@@ -19,8 +19,11 @@
 //#define CC_ARRHALVES_ARRAYHALVES_01
 //#define CC_MINMAXARR_MINIMIZE_THE_MAXIMUM_01
 //#define CC_ZCO23001_PARCHMENT_01
-#define CC_SYMARRSWAP_SYMMETRIC_SWAPS_01
-/*******************************************************************************************************/
+//#define CC_SYMARRSWAP_SYMMETRIC_SWAPS_01
+//#define CC_INOI_FREE_TICKET_01
+//#define CC_INOI1201_TRIATHLON_01
+#define CC_INOI_SEQUENCE_LAND_01
+/*****************************************************************************************************/
 #include <iostream>
 #include <string>
 #include <direct.h>
