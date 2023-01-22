@@ -14,3 +14,10 @@ Debug/
 *.opensdf
 .vs/
 Startup/obj/
+*.ipch
+.vs/Algorithm/v17/.suo
+*.db
+*.log
+.vs/Algorithm/v17/.suo
+*.db
+*.log

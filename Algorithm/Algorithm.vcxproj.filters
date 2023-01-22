@@ -125,5 +125,14 @@
     <ClCompile Include="..\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp">
       <Filter>CodeChef\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2203A_Diocletian-Part1.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2203B_Diocletian-Part2.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

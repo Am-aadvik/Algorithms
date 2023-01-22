@@ -1,24 +1,27 @@
 #include "CommonHeader.h"
 #ifdef CC_ZCO23001_PARCHMENT_01
 READ_INPUT(CC_ZCO23001_PARCHMENT_01)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #define int long long 
 using namespace std;
 
-vector<vector<int>> ans;
 int p[2000001];
 int up_bnd[1000001];
-int ans[200001][2];
+int ans[200001];
+int freq[200001];
 
-int compute(int k, int mx, int mn)
+int compute(int k, int mn, int mx)
 {
 	int cnt = 0;
 	while (mn <= mx)
 	{
 		mn += k;
 		cnt++;
+		if (mn >= mx)
+			break;
 		mn = up_bnd[mn];
 	}
 
@@ -32,38 +35,71 @@ int32_t main()
 	for (int i = 0; i < n; ++i)
 		cin >> p[i];
 
+	int unique = 0;
+	for (int i = 0; i < n; ++i)
+		if (freq[p[i]] == 0)
+			freq[p[i]] = 1, unique++;
+
 	sort(p, p + n);
 
-	int prev = -1;
+	int prev = 0;
 	for (int i = 0; i < n; ++i)
 	{
-		for (int j = prev + 1; j <= p[i]; ++j)
+		for (int j = prev; j < p[i]; ++j)
 			up_bnd[j] = p[i];
 		prev = p[i];
 	}
 
 	for (int k = 0; k < a; ++k)
-		ans[k][0] = compute(k, p[0], p[n - 1]);
-	
+		ans[k] = compute(k, p[0], p[n - 1]);
+
+	int mx = p[n - 1], mn = p[0];
+	int ans2 = a + 1;
+	for (int k = 0; k < a; ++k)
+	{
+		int endr = mn + k;
+		int idx = -1;
+
+		int s = 0, e = n - 1;
+		while (s <= e)
+		{
+			int mid = (s + e) / 2;
+			if (p[mid] > endr)
+				e = mid - 1, idx = mid;
+			else if (p[mid] < endr)
+				s = mid + 1;
+			else
+				s = mid + 1;
+		}
+
+		if (mx - p[idx] <= k)
+		{
+			ans2 = k;
+			break;
+		}
+	}
+
 	int q;
 	cin >> q;
 	while (q--)
 	{
 		int f;
 		cin >> f;
-		if (f >= n)
+		if (f >= unique)
 			cout << 0 << endl;
+		else if (f == 1)
+			cout << (mx - mn) << endl;
+		else if (f == 2)
+			cout << ans2 << endl;
 		else
 		{
 			int idx = -1;
-			int s = 0, e = a - 1;
+			int s = 0, e = p[n - 1];
 			while (s <= e)
 			{
 				int mid = (s + e) / 2;
-				if (ans[mid][0] == f)
+				if (ans[mid] <= f)
 					idx = mid, e = mid - 1;
-				else if (ans[mid][0] < f)
-					e = mid - 1;
 				else
 					s = mid + 1;
 			}
@@ -75,4 +111,5 @@ int32_t main()
 
 	return 0;
 }
+
 #endif

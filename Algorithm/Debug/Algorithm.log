@@ -1,41 +1,9 @@
 ﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
   CC_SYMARRSWAP_Symmetric_Swaps_01.cpp
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(46,17): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(47,15): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(49,11): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(53,8): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(53,18): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(55,15): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(55,24): warning C4244: 'argument': conversion from '_Ty1' to 'const unsigned int', possible loss of data
-          with
-          [
-              _Ty1=__int64
-          ]
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(56,12): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(56,21): warning C4244: 'argument': conversion from '_Ty1' to 'const unsigned int', possible loss of data
-          with
-          [
-              _Ty1=__int64
-          ]
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(58,8): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(58,21): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(58,30): warning C4244: 'argument': conversion from '_Ty1' to 'const unsigned int', possible loss of data
-          with
-          [
-              _Ty1=__int64
-          ]
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(60,11): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(62,19): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(62,28): warning C4244: 'argument': conversion from '_Ty1' to 'const unsigned int', possible loss of data
-          with
-          [
-              _Ty1=__int64
-          ]
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(62,72): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(62,81): warning C4244: 'argument': conversion from '_Ty1' to 'const unsigned int', possible loss of data
-          with
-          [
-              _Ty1=__int64
-          ]
-C:\repos\Algorithms\Algorithms\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp(63,11): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+  CC_INOI2201_Posting_01.cpp
+C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(41,10): warning C4244: 'return': conversion from 'double' to '__int64', possible loss of data
+C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(44,14): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  CC_INOI2203A_Diocletian-Part1.cpp
+  CC_INOI2203B_Diocletian-Part2.cpp
+  Generating Code...
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe

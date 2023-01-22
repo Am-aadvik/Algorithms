@@ -94,6 +94,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\src\CodeChef\Contest\CC_SYMARRSWAP_Symmetric_Swaps_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2203A_Diocletian-Part1.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2203B_Diocletian-Part2.cpp" />
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12001_MatchBrackets_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
