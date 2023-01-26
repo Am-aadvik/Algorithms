@@ -53,7 +53,7 @@ int32_t main()
 	for (int k = 0; k < a; ++k)
 		ans[k] = compute(k, p[0], p[n - 1]);
 
-	int mx = p[n - 1], mn = p[0];
+	/*int mx = p[n - 1], mn = p[0];
 	int ans2 = a + 1;
 	for (int k = 0; k < a; ++k)
 	{
@@ -77,7 +77,7 @@ int32_t main()
 			ans2 = k;
 			break;
 		}
-	}
+	}*/
 
 	int q;
 	cin >> q;
@@ -87,10 +87,10 @@ int32_t main()
 		cin >> f;
 		if (f >= unique)
 			cout << 0 << endl;
-		else if (f == 1)
+		/*else if (f == 1)
 			cout << (mx - mn) << endl;
 		else if (f == 2)
-			cout << ans2 << endl;
+			cout << ans2 << endl;*/
 		else
 		{
 			int idx = -1;

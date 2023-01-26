@@ -19,10 +19,14 @@
 //#define CC_ARRHALVES_ARRAYHALVES_01
 //#define CC_MINMAXARR_MINIMIZE_THE_MAXIMUM_01
 //#define CC_ZCO23001_PARCHMENT_01
-#define CC_INOI2201_POSTING_01
+//#define CC_INOI2201_POSTING_01
 //#define CC_INOI2203A_DIOCLETIAN_PART1
 //#define CC_INOI2203B_DIOCLETIAN_PART2
 //#define CC_SYMARRSWAP_SYMMETRIC_SWAPS_01
+//#define CC_ZCO23002_WEIGHTAGE_01
+//#define CC_INOI1601_WEALTH_DISPARITY_01
+//#define CC_1202_TABLE_SUM_01
+#define CC_INOI1401_HIGHWAY_BYPASS_01
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>

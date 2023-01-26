@@ -134,5 +134,17 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO23002_Weightage_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1601_Wealth_disparity_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_1202_Table_Sum_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1401_Highway_Bypass_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
