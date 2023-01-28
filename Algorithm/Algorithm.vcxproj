@@ -142,6 +142,9 @@
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P1_Leaders.cpp" />
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P2_AirCownditioning.cpp" />
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P3_Moo_Operations.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

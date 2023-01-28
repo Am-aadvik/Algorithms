@@ -26,7 +26,10 @@
 //#define CC_ZCO23002_WEIGHTAGE_01
 //#define CC_INOI1601_WEALTH_DISPARITY_01
 //#define CC_1202_TABLE_SUM_01
-#define CC_INOI1401_HIGHWAY_BYPASS_01
+//#define CC_INOI1401_HIGHWAY_BYPASS_01
+#define USACO_JAN23_P1_LEADERS
+//#define USACO_JAN23_P2_AIRCOWNDITIONING
+//#define USACO_JAN23_P3_MOO_OPERATIONS
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>

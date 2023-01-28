@@ -146,5 +146,14 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1401_Highway_Bypass_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P1_Leaders.cpp">
+      <Filter>USACO\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P2_AirCownditioning.cpp">
+      <Filter>USACO\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P3_Moo_Operations.cpp">
+      <Filter>USACO\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

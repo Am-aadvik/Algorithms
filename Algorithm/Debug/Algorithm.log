@@ -1,9 +1,7 @@
 ﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
-  CC_SYMARRSWAP_Symmetric_Swaps_01.cpp
-  CC_INOI2201_Posting_01.cpp
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(41,10): warning C4244: 'return': conversion from 'double' to '__int64', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(44,14): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
-  CC_INOI2203A_Diocletian-Part1.cpp
-  CC_INOI2203B_Diocletian-Part2.cpp
+  CC_INOI1401_Highway_Bypass_01.cpp
+  USACO_Jan23_P1_Leaders.cpp
+  USACO_Jan23_P2_AirCownditioning.cpp
+  USACO_Jan23_P3_Moo_Operations.cpp
   Generating Code...
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe
