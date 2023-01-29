@@ -3,7 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define  _SCL_SECURE_NO_WARNINGS
 
-#include "ConsoleColor.h"
+//#include "ConsoleColor.h"
 
 /**************************************ad-hoc Algorithm*************************************************/
 
@@ -27,9 +27,10 @@
 //#define CC_INOI1601_WEALTH_DISPARITY_01
 //#define CC_1202_TABLE_SUM_01
 //#define CC_INOI1401_HIGHWAY_BYPASS_01
-#define USACO_JAN23_P1_LEADERS
+//#define USACO_JAN23_P1_LEADERS
 //#define USACO_JAN23_P2_AIRCOWNDITIONING
 //#define USACO_JAN23_P3_MOO_OPERATIONS
+#define USACO_JAN23_P2_FOLLOWDIR
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>

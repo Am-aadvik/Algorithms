@@ -2,6 +2,7 @@
   CC_INOI1401_Highway_Bypass_01.cpp
   USACO_Jan23_P1_Leaders.cpp
   USACO_Jan23_P2_AirCownditioning.cpp
+  USACO_JAN23_P2_FollowDir.cpp
   USACO_Jan23_P3_Moo_Operations.cpp
   Generating Code...
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe
