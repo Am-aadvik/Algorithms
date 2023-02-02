@@ -158,5 +158,8 @@
     <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir.cpp">
       <Filter>USACO\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir_Tc_generator.cpp">
+      <Filter>USACO\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

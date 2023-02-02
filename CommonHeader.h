@@ -3,7 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define  _SCL_SECURE_NO_WARNINGS
 
-//#include "ConsoleColor.h"
+#include "ConsoleColor.h"
 
 /**************************************ad-hoc Algorithm*************************************************/
 
@@ -19,7 +19,7 @@
 //#define CC_ARRHALVES_ARRAYHALVES_01
 //#define CC_MINMAXARR_MINIMIZE_THE_MAXIMUM_01
 //#define CC_ZCO23001_PARCHMENT_01
-//#define CC_INOI2201_POSTING_01
+#define CC_INOI2201_POSTING_01
 //#define CC_INOI2203A_DIOCLETIAN_PART1
 //#define CC_INOI2203B_DIOCLETIAN_PART2
 //#define CC_SYMARRSWAP_SYMMETRIC_SWAPS_01
@@ -30,7 +30,8 @@
 //#define USACO_JAN23_P1_LEADERS
 //#define USACO_JAN23_P2_AIRCOWNDITIONING
 //#define USACO_JAN23_P3_MOO_OPERATIONS
-#define USACO_JAN23_P2_FOLLOWDIR
+//#define USACO_JAN23_P2_FOLLOWDIR
+//#define USACO_JAN23_P2_FOLLOWDIR_TC_GENERATOR
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
