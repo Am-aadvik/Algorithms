@@ -1,6 +1,6 @@
 ﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
-  CC_INOI2201_Posting_01.cpp
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(34,10): warning C4244: 'return': conversion from 'double' to '__int64', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(36,14): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
-C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp(62,13): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  CC_AMONGUS2_Among_us_01.cpp
+C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp(16,22): warning C4018: '<': signed/unsigned mismatch
+C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp(44,3): warning C4459: declaration of 'colour' hides global declaration
+C:\repos\Algorithms\Algorithms\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp(11,5): message : see declaration of 'colour'
   Algorithm.vcxproj -> C:\repos\Algorithms\Algorithms\Debug\Algorithm.exe

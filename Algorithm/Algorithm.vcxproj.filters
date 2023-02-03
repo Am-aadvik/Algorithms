@@ -161,5 +161,11 @@
     <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir_Tc_generator.cpp">
       <Filter>USACO\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2002_3xN_Tiling.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
