@@ -33,7 +33,11 @@
 //#define USACO_JAN23_P2_FOLLOWDIR
 //#define USACO_JAN23_P2_FOLLOWDIR_TC_GENERATOR
 //#define CC_INOI2002_3XN_TILING
-#define CC_AMONGUS2_AMONG_US_01
+//#define CC_AMONGUS2_AMONG_US_01
+//#define CC_INOI2202_CONQUEST_01
+//#define CF_CONTEST1_PROBLEM_3
+//#define CF_CONTEST1_PROBLEM_2
+#define CF_CONTEST1_PROBLEM_1
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>

@@ -167,5 +167,17 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2202_Conquest_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_1.cpp">
+      <Filter>CodeForces\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_2.cpp">
+      <Filter>CodeForces\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp">
+      <Filter>CodeForces\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

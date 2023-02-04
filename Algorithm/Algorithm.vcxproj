@@ -105,7 +105,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_AMONGUS2_Among_us_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI1401_Highway_Bypass_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -119,6 +121,9 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2201_Posting_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2202_Conquest_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2203A_Diocletian-Part1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -164,6 +169,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_1.cpp" />
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_2.cpp" />
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp" />
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -177,7 +185,9 @@
     <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir_Tc_generator.cpp" />
+    <ClCompile Include="..\src\USACO\Contest\USACO_JAN23_P2_FollowDir_Tc_generator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\USACO\Contest\USACO_Jan23_P3_Moo_Operations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
