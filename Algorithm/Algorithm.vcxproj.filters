@@ -179,5 +179,8 @@
     <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp">
       <Filter>CodeForces\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="USACO_Feb4_P1_Find and Replace.cpp">
+      <Filter>USACO\Contest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

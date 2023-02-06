@@ -37,7 +37,9 @@
 //#define CC_INOI2202_CONQUEST_01
 //#define CF_CONTEST1_PROBLEM_3
 //#define CF_CONTEST1_PROBLEM_2
-#define CF_CONTEST1_PROBLEM_1
+//#define CF_CONTEST1_PROBLEM_1
+#define USACO_FEB4_P1_FIND_AND_REPLACE
+
 /*******************************************************************************************************/
 #include <iostream>
 #include <string>
@@ -45,6 +47,7 @@
 #include <conio.h>
 #include <time.h>
 #include <chrono>  
+using namespace std;
 
 #define CAT(A, B)   A##B
 #define FILE_NAME1(A, B) CAT(A, B)

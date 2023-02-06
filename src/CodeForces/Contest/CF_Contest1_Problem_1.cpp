@@ -1,7 +1,6 @@
-//#include "CommonHeader.h"
-//
-//#ifdef CF_CONTEST1_PROBLEM_1
-//READ_INPUT(CF_CONTEST1_PROBLEM_1)
+#include "CommonHeader.h"
+#ifdef CF_CONTEST1_PROBLEM_1
+READ_INPUT(CF_CONTEST1_PROBLEM_1)
 
 #include <iostream>
 #include <algorithm>
@@ -48,4 +47,4 @@ int32_t main()
 		cout << (sum - min2 * 2) << endl;
 	}
 }
-//#endif
+#endif
