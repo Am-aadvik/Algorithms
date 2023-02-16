@@ -182,5 +182,11 @@
     <ClCompile Include="USACO_Feb4_P1_Find and Replace.cpp">
       <Filter>USACO\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\uva\uva11367_Fuel_Tank.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="uva11902_Dominater.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -38,7 +38,9 @@
 //#define CF_CONTEST1_PROBLEM_3
 //#define CF_CONTEST1_PROBLEM_2
 //#define CF_CONTEST1_PROBLEM_1
-#define USACO_FEB4_P1_FIND_AND_REPLACE
+//#define USACO_FEB4_P1_FIND_AND_REPLACE
+//#define UVA11367_FUEL_TANK
+#define UVA100_THE_3N_PROBLEM
 
 /*******************************************************************************************************/
 #include <iostream>
