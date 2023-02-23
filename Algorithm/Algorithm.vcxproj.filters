@@ -179,14 +179,14 @@
     <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp">
       <Filter>CodeForces\Contest</Filter>
     </ClCompile>
-    <ClCompile Include="USACO_Feb4_P1_Find and Replace.cpp">
-      <Filter>USACO\Contest</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\uva\uva11367_Fuel_Tank.cpp">
       <Filter>UVA</Filter>
     </ClCompile>
     <ClCompile Include="uva11902_Dominater.cpp">
       <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\USACO\Contest\USACO_Feb4_P1_Find and Replace.cpp">
+      <Filter>USACO\Contest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
