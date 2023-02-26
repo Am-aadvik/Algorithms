@@ -188,5 +188,29 @@
     <ClCompile Include="..\src\USACO\Contest\USACO_Feb4_P1_Find and Replace.cpp">
       <Filter>USACO\Contest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\uva\uva100_the_3n+1_problem.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10849_Move_the_bishop.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva11450_WeddingShopping.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10003_CuttingSticks.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10684_Jackpot.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva507_Jill_Rides_Again.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10363_Tic_Tac_Toe.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10653_Bombs_NO_they_are_mines.cpp">
+      <Filter>UVA</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -40,7 +40,13 @@
 //#define CF_CONTEST1_PROBLEM_1
 //#define USACO_FEB4_P1_FIND_AND_REPLACE
 //#define UVA11367_FUEL_TANK
-#define UVA100_THE_3N_PROBLEM
+//#define UVA100_THE_3N_PROBLEM
+//#define UVA11450_WEDDINGSHOPPING
+//#define UVA10003_CUTTINGSTICKS
+//#define UVA10684_JACKPOT
+//#define UVA507_JILL_RIDES_AGAIN
+//#define UVA10363_TIC_TAC_TOE
+//#define UVA10653_BOMBS_NO_THEY_ARE_MINES
 
 /*******************************************************************************************************/
 #include <iostream>
