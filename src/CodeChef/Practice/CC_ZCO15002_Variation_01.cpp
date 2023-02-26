@@ -2,36 +2,32 @@
 
 #ifdef CC_ZCO15002_VARIATION_01
 READ_INPUT(CC_ZCO15002_VARIATION_01)
-
 #include <iostream>
 #include <algorithm>
-#include <string>
-#include <string.h>
-#include <math.h>
-#include <float.h>
-#include <queue>
-#include <map>
-#include <stdio.h>
-
 using namespace std;
 
-#define FOR(i, init, cnt) for(int i = init; i < cnt; i++)
-#define MAXN 1003
-#define INF 0x3f3f3f3f3f3f3f3fL
-typedef long long ll;
-
-void reset()
-{
-}
+int arr[100001];
 
 int main()
 {
-	int T;
-	scanf("%d ", &T);
-FOR(t, 0, T)
-{
-}
+	int n, k;
+	cin >> n >> k;
+	for (int i = 0; i < n; ++i)
+		cin >> arr[i];
+
+	sort(arr, arr + n);
+
+	int i = 0, j = 1, ans = 0;
+
+	while (j < n)
+	{
+		if (arr[j] - arr[i] < k)
+			++j;
+		else
+			ans += (n - j), ++i;
+	}
+
+	cout << ans << endl;
 	return 0;
 }
-
 #endif

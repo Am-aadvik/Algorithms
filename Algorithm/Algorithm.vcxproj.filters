@@ -212,5 +212,65 @@
     <ClCompile Include="..\src\uva\uva10653_Bombs_NO_they_are_mines.cpp">
       <Filter>UVA</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14004_IPL.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12004_Round_Table_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12002_Wormholes.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15001_Break_up.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16001_Bookshelves.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15003_Covering.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16002_Bamboo_Art_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13003_Chewing_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13002_Little_Red_Rinding_Hood.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12003_Matched_Brackets2.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15004_Ractangle.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_SINGTOUR_ZCO2019_Singing_Tour_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO17001_Four_Sum_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13004_Save_Spaceman_Spiff_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22001_Vacation_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_MOVINTRL_Moving_Intervals_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20001_Weird_Ordering_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_UPDOWNSEQ_ZCO2019_2_UpDown_Sequences.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_STRIMPOR_Substring_Importance_ZCO2018.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20002_Interleavings_ans_Blocks_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

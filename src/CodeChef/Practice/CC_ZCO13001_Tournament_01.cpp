@@ -4,34 +4,17 @@
 READ_INPUT(CC_ZCO13001_TOURNAMENT_01)
 
 #include <iostream>
-#include <algorithm>
-#include <string>
-#include <string.h>
-#include <math.h>
-#include <float.h>
-#include <queue>
-#include <map>
-#include <stdio.h>
-
+#include<algorithm>
+#define int long long
 using namespace std;
 
-#define FOR(i, init, cnt) for(int i = init; i < cnt; i++)
-#define MAXN 1003
-#define INF 0x3f3f3f3f3f3f3f3fL
-typedef long long ll;
-
-void reset()
-{
+int arr[200001];
+int32_t main() {
+    int n; cin >> n;
+    for (int i = 0; i < n; i++) cin >> arr[i];
+    sort(arr, arr + n); int ans = 0;
+    for (int i = 0; i < n; i++) ans += (arr[i] * i);
+    for (int i = 0; i < n; i++) ans -= (arr[i] * (n - (i + 1)));
+    cout << ans;
 }
-
-int main()
-{
-	int T;
-	scanf("%d ", &T);
-FOR(t, 0, T)
-{
-}
-	return 0;
-}
-
 #endif
