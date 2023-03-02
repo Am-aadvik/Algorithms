@@ -170,15 +170,6 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_INOI2202_Conquest_01.cpp">
       <Filter>CodeChef\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_1.cpp">
-      <Filter>CodeForces\Contest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_2.cpp">
-      <Filter>CodeForces\Contest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp">
-      <Filter>CodeForces\Contest</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\uva\uva11367_Fuel_Tank.cpp">
       <Filter>UVA</Filter>
     </ClCompile>
@@ -271,6 +262,18 @@
     </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20002_Interleavings_ans_Blocks_01.cpp">
       <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO17002_Rays_01.cpp">
+      <Filter>CodeChef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Hossam_and_the_Combinatorics_01.cpp">
+      <Filter>CodeForces\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Extremely_Round_01.cpp">
+      <Filter>CodeForces\Contest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_add(a,b)_01.cpp">
+      <Filter>CodeForces\Contest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -133,24 +133,44 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_MOVINTRL_Moving_Intervals_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_SINGTOUR_ZCO2019_Singing_Tour_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_STRIMPOR_Substring_Importance_ZCO2018.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_UPDOWNSEQ_ZCO2019_2_UpDown_Sequences.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_MOVINTRL_Moving_Intervals_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_SINGTOUR_ZCO2019_Singing_Tour_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_STRIMPOR_Substring_Importance_ZCO2018.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_UPDOWNSEQ_ZCO2019_2_UpDown_Sequences.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12001_MatchBrackets_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12002_Wormholes.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12003_Matched_Brackets2.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12004_Round_Table_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12002_Wormholes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12003_Matched_Brackets2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO12004_Round_Table_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13001_Tournament_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13002_Little_Red_Rinding_Hood.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13003_Chewing_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13004_Save_Spaceman_Spiff_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13002_Little_Red_Rinding_Hood.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13003_Chewing_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO13004_Save_Spaceman_Spiff_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14001_VideoGame_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -166,19 +186,38 @@
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO14004_IPL.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15001_Break_up.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15001_Break_up.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15002_Variation_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15003_Covering.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15004_Ractangle.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16001_Bookshelves.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16002_Bamboo_Art_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO17001_Four_Sum_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20001_Weird_Ordering_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20002_Interleavings_ans_Blocks_01.cpp" />
-    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22001_Vacation_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15003_Covering.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO15004_Ractangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16001_Bookshelves.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO16002_Bamboo_Art_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO17001_Four_Sum_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO17002_Rays_01.cpp" />
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20001_Weird_Ordering_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO20002_Interleavings_ans_Blocks_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22001_Vacation_01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\CodeChef\Practice\CC_ZCO22002_Messages_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -191,15 +230,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_2.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\src\CodeForces\Contest\CF_Contest1_Problem_3.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\src\CodeForces\Contest\CF_add(a,b)_01.cpp" />
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Extremely_Round_01.cpp" />
+    <ClCompile Include="..\src\CodeForces\Contest\CF_Hossam_and_the_Combinatorics_01.cpp" />
     <ClCompile Include="..\src\spoj\SPOJ_Fishmonger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -228,8 +261,12 @@
     <ClCompile Include="..\src\uva\uva100_the_3n+1_problem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\src\uva\uva10363_Tic_Tac_Toe.cpp" />
-    <ClCompile Include="..\src\uva\uva10653_Bombs_NO_they_are_mines.cpp" />
+    <ClCompile Include="..\src\uva\uva10363_Tic_Tac_Toe.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\uva\uva10653_Bombs_NO_they_are_mines.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\src\uva\uva10684_Jackpot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

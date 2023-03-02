@@ -7,51 +7,61 @@ READ_INPUT(USACO_JAN23_P1_LEADERS)
 #define N 1000005
 using namespace std;
 
-char assign[200];bool p2[27];
-int visited[200];bool p1[27];
-pair<int,bool> solve(int node, int cnt)
-{
-    if (assign[node] || visited[node] == 2) return make_pair(cnt, 0);
-    if (visited[node] == 1) return make_pair(cnt + 2, 1);
-    visited[node] = 1; pair<int,bool> curr = solve(assign[node], cnt + 1);
-    visited[node] = 2; return curr;
-}
+int e[N], G_lis[N], H_lis[N], inc_H[N], inc_G[N];
+string s;
+bool breed_inc[N];
+
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int n;
+    cin >> n;
+    cin >> s;
+    for (int i = 0; i < n; ++i)
+        cin >> e[i];
+
+    int Gstart = -1, Gend = -1, Hstart = -1, Hend = -1;
+    for (int i = 0; i < n; ++i)
     {
-        for (int i = 0; i < 200; ++i) assign[i] = '1', visited[i] = 0;
-        for (int i = 0; i < 26; ++i) p1[i] = p2[i] = 0;
+        e[i]--;
+        if (s[i] == 'G')
+            Gstart = ((Gstart == -1) ? i : Gstart), Gend = i, G_lis[i]++;
+        else
+            Hstart = ((Hstart == -1) ? i : Hstart), Hend = i, H_lis[i]++;
 
-        string s1, s2; bool ok = 1, ext = 0;
-        cin >> s1 >> s2; int n = s1.length();
-        for (int i = 0; i < n; ++i)
-            if (s1[i] != s1[i])
-            {
-                if (assign[s1[i]] != '1' && assign[s1[i]] != s2[i]) ok = 0;
-                if (s1[i] < 95) p1[s1[i] - 65] = 1;
-                else p2[s1[i] - 97] = 1; assign[s1[i]] = s2[i];
-            }
-
-        if (!ok) { cout << "-1" << endl; continue; }
-        for (int i = 0; i < 26; ++i)
-            if (!p1[i] || !p2[i])
-                ext = 0;
-
-        int ans = 0;
-        for(int i = 0; i < n;++i)
-            if (!visited[s1[i]])
-            {
-                pair<int, bool> res = solve(s1[i], 0);
-                if (res.second && !ext) ok = 0;
-                ans += res.first;
-            }
-
-        if (!ok) cout << "-1" << endl;
-        else cout << ans << endl;
+        if (i > 0)
+            H_lis[i] += H_lis[i - 1], G_lis[i] += G_lis[i - 1];
     }
+
+    for (int i = 0; i < n; ++i)
+    {
+        if (s[i] == 'G')
+            breed_inc[i] = (G_lis[n - 1] == (G_lis[e[i]] - G_lis[i] + 1)), inc_G[i] = breed_inc[i];
+        else
+            breed_inc[i] = (H_lis[n - 1] == (H_lis[e[i]] - H_lis[i] + 1)), inc_H[i] = breed_inc[i];
+
+        if (i > 0)
+            inc_G[i] += inc_G[i - 1], inc_H[i] += inc_H[i - 1];
+    }
+
+    int ans = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        if (s[i] == 'G')
+        {
+            if (breed_inc[i])
+                ans += (inc_H[n - 1] - inc_H[i]);
+            else
+                ans += (inc_H[e[i]] - inc_H[i]);
+        }
+        else
+        {
+            if (breed_inc[i])
+                ans += (inc_G[n - 1] - inc_G[i]);
+            else
+                ans += (inc_G[e[i]] - inc_G[i]);
+        }
+    }
+    cout << ans << endl;
 }
 
 #endif
